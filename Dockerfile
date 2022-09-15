@@ -7,4 +7,6 @@ RUN bash /repro/dist/setup
 
 USER repro
 
+RUN repro.require docker-client exports
+
 CMD  /bin/bash -il
