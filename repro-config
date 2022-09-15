@@ -2,7 +2,7 @@ REPRO_NAME=docker-client
 REPRO_DOCKER_ORG=cirss
 REPRO_IMAGE_TAG=latest
 
-REPRO_LOGGING_LEVEL=trace
+#REPRO_LOGGING_LEVEL=trace
 
 REPRO_DOCKER_OPTIONS=--cap-add SYS_ADMIN				\
 					 --cap-add SYS_PTRACE				\
