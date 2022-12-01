@@ -1,7 +1,14 @@
 
-------- Cleaning example 01-hello/ ----------------
+------- Cleaning example 01-run-hello-world/ ----------------
 removed './run.txt'
 removed './tmp/hello.sh'
 removed './tmp/hello.txt'
+rmdir: removing directory, './tmp'
+rmdir: removing directory, './products'
+
+------- Cleaning example 02-compose-up-hello-world/ ----------------
+removed './run.txt'
+removed './tmp/hello-compose.sh'
+removed './tmp/hello-compose.txt'
 rmdir: removing directory, './tmp'
 rmdir: removing directory, './products'

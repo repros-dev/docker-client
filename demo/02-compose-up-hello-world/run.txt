@@ -1,6 +1,6 @@
 ========================== bash cell | hello-compose ===========================
 
-sudo docker-compose --file hello-world.yml up
+sudo docker-compose --no-ansi --file hello-world.yml up
 
 --------------------------------- cell outputs ---------------------------------
 Attaching to 02-compose-up-hello-world-hello-1

@@ -7,7 +7,7 @@ COMMON=../common
 
 bash_cell 'hello-compose' << END_CELL
 
-sudo docker-compose --file hello-world.yml up
+sudo docker-compose --no-ansi --file hello-world.yml up
 
 END_CELL
 

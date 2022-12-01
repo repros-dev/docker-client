@@ -1,2 +1,6 @@
 
----------- Running example 01-hello/ -------------
+---------- Running example 01-run-hello-world/ -------------
+
+---------- Running example 02-compose-up-hello-world/ -------------
+option '--no-ansi' is DEPRECATED ! Please use '--ansi' instead.
+Container 02-compose-up-hello-world-hello-1  Created
