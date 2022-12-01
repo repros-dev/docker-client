@@ -10,5 +10,12 @@ I MESG Resetting the 'repro' module
 I MESG Re-initializing trim files for module 'repro'
 I MESG Resetting the 'docker-client' module
 I MESG Re-initializing trim files for module 'docker-client'
+I MESG Copying /home/repro/repro-modules/docker-client-exports/demo-makefile to the 'docker-client' trim directory (/mnt/docker-client/.docker-client)
+I MESG Resetting the 'shell-notebook' module
+I MESG Re-initializing trim files for module 'shell-notebook'
+I MESG Ensuring other files listed in the 'shell-notebook' module trim manifest are in the module trim directory (/mnt/docker-client/.shell-notebook)
+I MESG Copying trim file Makefile.demo-runner from /home/repro/repro-modules/shell-notebook-master to /mnt/docker-client/.shell-notebook
 I MESG Resetting the REPRO target mapping file (/mnt/docker-client/.repro/repro-targets)
 I MESG Installing a default (empty) target mapping file to /mnt/docker-client/.repro/repro-targets
+I MESG Mapping the 'docker-client:demo:run' target to the REPRO 'run-demo' target
+I MESG Mapping the 'docker-client:demo:clean' target to the REPRO 'clean-demo' target

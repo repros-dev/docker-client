@@ -1,0 +1,7 @@
+
+------- Cleaning example 01-hello/ ----------------
+removed './run.txt'
+removed './tmp/hello.sh'
+removed './tmp/hello.txt'
+rmdir: removing directory, './tmp'
+rmdir: removing directory, './products'
