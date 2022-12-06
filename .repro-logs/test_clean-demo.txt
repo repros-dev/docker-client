@@ -12,3 +12,10 @@ removed './tmp/hello-compose.sh'
 removed './tmp/hello-compose.txt'
 rmdir: removing directory, './tmp'
 rmdir: removing directory, './products'
+
+------- Cleaning example 03-compose-up-hello-world-local/ ----------------
+removed './run.txt'
+removed './tmp/hello-compose.sh'
+removed './tmp/hello-compose.txt'
+rmdir: removing directory, './tmp'
+rmdir: removing directory, './products'

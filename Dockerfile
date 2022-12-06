@@ -7,7 +7,7 @@ RUN bash /repro/dist/boot-setup
 
 USER repro
 
-RUN repro.require docker-client exports --compose-v1 --demo
+RUN repro.require docker-client exports --compose-v1 --demo --util
 RUN repro.require shell-notebook master ${REPROS_DEV}
 
 # use a local directory named tmp for each demo

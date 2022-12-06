@@ -4,3 +4,7 @@
 ---------- Running example 02-compose-up-hello-world/ -------------
 option '--no-ansi' is DEPRECATED ! Please use '--ansi' instead.
 Container 02-compose-up-hello-world-hello-1  Created
+
+---------- Running example 03-compose-up-hello-world-local/ -------------
+option '--no-ansi' is DEPRECATED ! Please use '--ansi' instead.
+Container 03-compose-up-hello-world-local-hello-1  Created
