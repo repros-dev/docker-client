@@ -1,3 +1,0 @@
-services:
-  hello:
-    build: ./hello_world_local

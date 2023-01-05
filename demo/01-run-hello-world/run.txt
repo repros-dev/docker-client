@@ -1,5 +1,6 @@
 ============================== bash cell | hello ===============================
 
+# Run the standard hello-world docker image.
 sudo docker run --rm hello-world
 
 --------------------------------- cell outputs ---------------------------------
