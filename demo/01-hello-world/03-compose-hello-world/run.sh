@@ -8,7 +8,7 @@ COMMON=../common
 bash_cell 'hello-compose' << 'END_CELL'
 
 # Create a compose file that runs the standard hello-world image.
-COMPOSE_FILE=tmp/compose.yml
+COMPOSE_FILE=products/compose.yml
 cat > ${COMPOSE_FILE} << END_FILE
 services:
   hello:

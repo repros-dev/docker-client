@@ -1,23 +1,20 @@
 ============================== bash cell | hello ===============================
 
 # Create a Dockerfile that trivially extends the standard hello-world image.
-DOCKER_FILE=tmp/Dockerfile
+DOCKER_FILE=products/image/Dockerfile
+mkdir -p products/image
 cat > ${DOCKER_FILE} << END_FILE
 FROM hello-world:latest
 END_FILE
 
 # Build a new image from the Dockerfile
-sudo docker build -t custom-hello-world ./tmp
+sudo docker build --quiet -t custom-hello-world ./products/image
 
 # Run the custom hello-world docker image.
 sudo docker run --rm custom-hello-world
 
 --------------------------------- cell outputs ---------------------------------
-Sending build context to Docker daemon  3.584kB
-Step 1/1 : FROM hello-world:latest
- ---> feb5d9fea6a5
-Successfully built feb5d9fea6a5
-Successfully tagged custom-hello-world:latest
+sha256:feb5d9fea6a5e9606aa995e879d862b825965ba48de054caab5ef356dc6b3412
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
